@@ -1,0 +1,338 @@
+body {
+  font-family: "Palatino";
+  font-size: 0.9rem;
+
+}
+
+ul {
+  list-style: none;
+}
+/* Homepage*/
+
+.homeBackground {
+  background-color: #EBE7E3;
+  height: 700px;
+  margin:0%;
+  padding-top: 2%;
+  margin-top: -1.4%
+
+}
+
+.loginHolder {
+  background-color: white;
+  width: 40%;
+  height: 600px;
+  padding:25px;
+  padding-top:30px;
+  border: 4px solid #E77B16;
+  margin-left: 30%;
+  margin-top:0%;
+  border-radius: 25px;
+  opacity: 20%;
+}
+
+.homepageLogo {
+  width: 250px;
+  height: 140px;
+}
+
+.loginZone {
+  font-family: Verdana;
+  color:#585858;
+  font-size: 0.8rem;
+  margin-top: 6%;
+  background-color: white;
+  width: 100%;
+  height: 67%;
+  border: 2px solid #E77B16;
+  border-radius: 15px;
+}
+
+.loginForm {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+.loginText {
+  color: #E77B16;
+  font-size: 1.5rem;
+  font-family: Verdana;
+  margin-top: 6%;
+  margin-left: -2%;
+}
+
+#selectYourUniversity {
+  margin-left: 12%;
+  font-size: 1.2rem;
+  margin-top: 3%;
+}
+
+#enterSessionNumber {
+  margin-left: 12%;
+  font-size: 1.2rem;
+  margin-top: 5%;
+}
+
+#enterStudentNumber {
+  margin-left: 12%;
+  font-size: 1.2rem;
+  margin-top: 7%;
+}
+
+#sessionNumberForm {
+  margin-left: 24%;
+  font-size: 1.2rem;
+}
+
+#universitySelect {
+  margin-left: 24%;
+  font-size: 1.2rem;
+}
+
+#studentNumberForm {
+  margin-left: 24%;
+  font-size: 1.2rem;
+}
+
+.submitLoginDetails {
+  width:60%;
+  font-size: 1.3rem;
+  background-color: #E77B16;
+  margin-top: 9%;
+  margin-left: 15%;
+  color:white;
+  border:none;
+  font-family: Verdana;
+  outline: none:
+}
+
+.submitLoginDetails:focus {
+  outline: 0;
+  background-color: #CF8314;
+}
+
+.submitLoginDetails:hover {
+  background-color: #C57A0C;
+  border: 1px solid #8D5709;
+}
+
+.submitLoginDetails:active {
+  background-color: #704507;
+  border:none;
+}
+
+
+.submitLoginDetails {
+  background-color:
+}
+
+/* NavBar */
+
+.navButton {
+  width:131px;
+  height:71px;
+  display: inline-block;
+  float: left;
+  background-color:#E77B16 ;
+  margin-top: 0px;
+  text-decoration: none;
+  text-align: center;
+  color:white;
+  border-radius: 8px;
+  border:3px solid #A9A8A7;
+}
+
+#logoHolder {
+  width:131px;
+  height:71px;
+  display: inline-block;
+  float: left;
+  background-color:#E77B16 ;
+  margin-top: 0px;
+  text-decoration: none;
+  text-align: center;
+  color:white;
+  border-radius: 8px;
+  border:1px solid #A9A8A7;
+
+}
+.navButton:hover {
+  border: 1px solid #C4770A;
+  cursor: pointer;
+  background-color: #F7C4A8;
+}
+
+
+
+.navButtonLink:visited {
+  text-decoration: none;
+  color:white;
+
+}
+
+.navButtonLink {
+  text-decoration: none;
+  color:white;
+  vertical-align: middle;
+  font-size: 1.3rem;
+
+}
+
+.questionListButton {
+  width:131px;
+  height:70px;
+  display: inline-block;
+  background-color:#E77B16;
+  text-decoration: none;
+  text-align: center;
+  color:white;
+  border-radius: 7px;
+  border:3px solid #A9A8A7;
+  font-size: 1.2rem;
+
+
+}
+
+.questionListButton:hover {
+  border: 1px solid #C4770A;
+  cursor: pointer;
+  background-color: #F7C4A8;
+}
+
+.questionListButton:visited {
+  color:white;
+  text-decoration: none;
+
+}
+
+.questionListButton a {
+  text-decoration: none;
+  color:white;
+  margin-top: 50px;
+font-size: 1.7rem;
+
+}
+
+.navbar {
+  background-color: #E77B16;
+  height: 71px;
+  width:100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/* Question Page */
+
+.questionPlaceHolder {
+  width:70%;
+  height:85px;
+  border: 2px solid #E77B16;
+  border-radius: 10px;
+  margin-left: 15%;
+  background-color: #D1D0CE;
+
+}
+
+.questionTextHolder {
+  width: 90%;
+  height: 59px;
+  background-color: white;
+  margin-left: 1%;
+  margin-top: 6px;
+  border-radius: 10px;
+  color: grey;
+  vertical-align: middle;
+
+
+}
+
+.questionWriting {
+  padding-left: 20px;
+  padding-top:19px;
+  font-size: 1.9rem;
+  vertical-align: middle;
+
+}
+
+.questions{
+  width:80%;
+  height:80px;
+  border: 2px solid grey;
+}
+
+.listHeading {
+
+  color: #C35817;
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-top: 3%;
+  font-weight: bold;
+}
+
+#deleteButton {
+  float:right;
+  display:inline;
+  margin-top: 5px;
+  margin-right: 5px;
+  color: #800517;
+}
+
+#deleteButton:hover {
+  color:red;
+}
+
+.upvoteIcon {
+  float:right;
+  margin-top: 25px;
+  margin-right: 0.5%;
+  color: #E56717;
+  font-size: 1.7rem;
+}
+
+.upvoteIcon:hover {
+  color:#7F462C;
+}
+
+.scoreHolder {
+  width: 20px;
+  height:30px;
+
+  display: inline-block;
+  float: right;
+  margin-top: 22px;
+  margin-right: 7px;
+}
+
+.scoreResult {
+
+  color: black;
+  font-size: 2rem;
+  margin-left: 20%;
+  margin-top: 10%;
+
+}
+
+.timeStamp {
+  margin-left: 2%;
+  margin-top: -5px;
+  color: black;
+  font-size: 1.03rem;
+}
+
+/* Submit Area*/
+
+.questionSubmitZone {
+  width:70%;
+  height: 100%;
+  border: 2px solid #A9A8A7;
+  margin-left: 15%;
+  margin-top: 8%;
+  border-radius: 10px;
+}
+
+#questionForm {
+  width:80%;
+  font-size: 2rem;
+}

@@ -1,0 +1,23 @@
+<template name="questionListVotes">
+
+
+        <ul class="list-group">
+          <br>
+
+          <h3 class="listHeading">Most Popular Comments:</h3>
+          <br><br>
+
+          {{#each questions}}
+          <br>
+            {{> questionItem}}
+          {{/each}}
+
+          <br>
+
+          <br>
+          <a class="btn btn-block btn-warning" href="/submit" type="button" style="width:50%; margin-left:25%; height:50px; padding-top:15px; background-color:#E77B16" >Got a QuickQuestion? Enter here, it's anonymous!</a>
+
+        </ul>
+
+
+</template>

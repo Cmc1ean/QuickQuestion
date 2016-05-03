@@ -1,0 +1,28 @@
+<template name="questionItem">
+  <div class= "questionPlaceHolder">
+
+      <p id="deleteButton"  ><i class="fa fa-times"></i></p>
+        <p class="upvoteIcon"  ><i class="fa fa-user-plus"></i></p>
+      <div class="scoreHolder">
+        <p class="scoreResult"> {{score}} </p>
+     </div>
+
+
+    <div class= "questionTextHolder">
+        <p class="questionWriting">{{question}}</p>
+
+        <!--Show author ID
+        <p class="author">{{createdBy}}</p>
+      -->
+
+      <br>
+      <p class="timeStamp">
+        {{submitted}}
+
+    </p>
+
+
+
+  </div>
+  </div>
+</template>

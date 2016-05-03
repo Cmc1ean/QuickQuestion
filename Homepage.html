@@ -1,0 +1,52 @@
+<template name="homepage">
+
+<body>
+
+  <div class="homeBackground">
+      <div class="loginHolder">
+        <img class="homepageLogo" src="http://i.imgur.com/kK8OB08.jpg"/>
+          <div class="loginZone">
+            <div class="loginForm">
+              <p class="loginText">
+                Session Login:
+              </p>
+              <div id="enterSessionNumber">
+                <p>
+                Please enter your session number:
+              </p>
+            </div>
+                <form id="sessionNumberForm">
+                  <input type="sessionNumber" name="sessionNumber" placeholder="Session ID Number...">
+                </form>
+                <br>
+                <p id="selectYourUniversity">
+                  Please select your University:
+                </p>
+                <select id="universitySelect">
+                  <option value="warwick">University of Warwick</option>
+                  <option value="manchester">University of Manchester</option>
+                  <option value="cambridge">University of Cambridge</option>
+                  <option value="oxford">University of Oxford</option>
+                  <option value="birmingham">University of Birmingham</option>
+                </select>
+                <br>
+                <div id="enterStudentNumber">
+                  <p>
+                  Please enter your University student number:
+                </p>
+              </div>
+                  <form id="studentNumberForm">
+                    <input type="studentNumber" name="studentNumber" placeholder="Student Number...">
+                  </form>
+
+                  <a href="/votes"><button type="button" class="submitLoginDetails">Submit</button></a>
+
+
+            </div>
+          </div>
+      </div>
+  </div>
+
+
+</body>
+</template>

@@ -1,0 +1,30 @@
+<template name="questionSubmit">
+  <div class="questionSubmitZone">
+    <div class="form-style">
+      <div class="container">
+        <form class="questionSubmitForm">
+
+            <div >
+            {{> loginButtons}}
+            </div>
+
+            <br>
+          <h3>Got a QuickQuestion? Enter here, it's anonymous!</h3>
+          <br>
+          <br>
+          <br>
+
+          <input  autofocus="autofocus" type="text" name="question" id="questionForm"   placeholder="Enter your question here..." maxlength="120" />
+          <br>
+          <br>
+          <br>
+          <input type="submit" value="Post Question" class="btn btn-warning">
+          <br><br><br>
+
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+</template>
